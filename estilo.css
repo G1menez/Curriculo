@@ -36,11 +36,14 @@
     /* deixa o espaçamento das palavras em 10 px */
     word-spacing: 10px;
 }
+ /* id do botao */
 #botao
 {
+     /* define o padding em 20px*/
     padding: 20px;
-    padding-top: 20px;
+     /* deixa sem decoração do texto*/
     text-decoration: none;
+     /* deixa a cor do texto azul violeta */
     color:blueviolet;
 
 }
