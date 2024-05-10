@@ -16,13 +16,18 @@
     /* deixa o espaçamento entre as letras em 2 px */
     letter-spacing: 2px;
     /* define o espaçamento entre uma linha e outra */
-    line-height: 50px;
+    
+    /* cria uma borda solida de 15 px preta */
+    border: 15px solid black;
+    /* cria uma margin pra esquerda e para a direita de 20% */
+    margin-left: 20%;
+    margin-right: 20%;
 }
 /* classe titulo */
 .titulo
 {
     /* deixa a cor do texto vermelha */
-    color: red;
+    color: rgb(58, 9, 9);
     /* deixa o estilo da fonte normal*/
     font-style: normal;
     /* deixa uma linha de baixo das palavras da classe titulo  */
@@ -32,18 +37,22 @@
 .nome
 {
      /* deixa a cor do texto azul */
-    color: blue;
+    color: rgb(82, 82, 133);
     /* deixa o espaçamento das palavras em 10 px */
     word-spacing: 10px;
 }
  /* id do botao */
-#botao
+#botao_link
 {
      /* define o padding em 20px*/
-    padding: 20px;
+    font-size: 30px;
      /* deixa sem decoração do texto*/
     text-decoration: none;
      /* deixa a cor do texto azul violeta */
-    color:blueviolet;
+    color:rgb(0, 0, 0);
 
+}
+#botao
+{
+    padding: 10px;
 }
