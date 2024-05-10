@@ -1,0 +1,46 @@
+/* importa uma fonte do google */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+/* id do conteudo da pagina */
+#conteudo
+{
+    /* tipo de fonte */
+    font-family: 'Oswald';
+    /* alinha no centro os conteudos da pagina */
+    text-align: center;
+    /* tamanho da fonte */
+    font-size: 25px;
+    /* deixa a letra inicial de cada palavra em maiusculo */
+    text-transform: capitalize;
+    /* define o tamanho do espaçamento do lado esquerdo da pagina pro conteudo */
+    text-indent: 0;
+    /* deixa o espaçamento entre as letras em 2 px */
+    letter-spacing: 2px;
+    /* define o espaçamento entre uma linha e outra */
+    line-height: 50px;
+}
+/* classe titulo */
+.titulo
+{
+    /* deixa a cor do texto vermelha */
+    color: red;
+    /* deixa o estilo da fonte normal*/
+    font-style: normal;
+    /* deixa uma linha de baixo das palavras da classe titulo  */
+    text-decoration:underline;
+}
+/* classe nome */
+.nome
+{
+     /* deixa a cor do texto azul */
+    color: blue;
+    /* deixa o espaçamento das palavras em 10 px */
+    word-spacing: 10px;
+}
+#botao
+{
+    padding: 20px;
+    padding-top: 20px;
+    text-decoration: none;
+    color:blueviolet;
+
+}
