@@ -26,7 +26,7 @@
 /* classe titulo */
 .titulo
 {
-    /* deixa a cor do texto vermelha */
+    /*  deixa o texto na cor preta */
     color: rgb(58, 9, 9);
     /* deixa o estilo da fonte normal*/
     font-style: normal;
@@ -36,23 +36,25 @@
 /* classe nome */
 .nome
 {
-     /* deixa a cor do texto azul */
+     /* deixa a cor do texto azul meio cinza */
     color: rgb(82, 82, 133);
     /* deixa o espaçamento das palavras em 10 px */
     word-spacing: 10px;
 }
- /* id do botao */
+ /* id do link do botao */
 #botao_link
 {
      /* define o padding em 20px*/
     font-size: 30px;
      /* deixa sem decoração do texto*/
     text-decoration: none;
-     /* deixa a cor do texto azul violeta */
+     /* deixa a cor do texto preta */
     color:rgb(0, 0, 0);
 
 }
+/* id do botao */
 #botao
 {
+    /*deixa o padding em 10 px*/
     padding: 10px;
 }
